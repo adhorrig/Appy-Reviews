@@ -1,0 +1,8 @@
+{
+    "project": [{
+            "id": "0",
+            "about": {
+                "info": "This project was designed and implemented by Adam (X13735825) and Reimo (X13120051). The project was undertaken as part of Web Development module for BSCH2B. Key aspects of the project include using Jquery to get a Json node, next / previous implementation and update implementation. The project also uses the bootstrap framework for a more professional and clean look. Due to time constaints, we were not able set the contact form to actually send an email. Developing the project was a steep learning curve, although we both thoroughly enjoyed working on it."
+            }
+        }]
+}

@@ -1,0 +1,61 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="root">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="contact">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="general_info">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="header">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="contact"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="hours">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="monday"/>
+                          <xs:element type="xs:string" name="tuesday"/>
+                          <xs:element type="xs:string" name="wednesday"/>
+                          <xs:element type="xs:string" name="thursday"/>
+                          <xs:element type="xs:string" name="friday"/>
+                          <xs:element type="xs:string" name="saturday"/>
+                          <xs:element type="xs:string" name="sunday"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="contact">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="phone"/>
+                          <xs:element type="xs:string" name="email"/>
+                          <xs:element type="xs:string" name="address"/>
+                          <xs:element type="xs:string" name="fax"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="form">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="name"/>
+                    <xs:element type="xs:string" name="email"/>
+                    <xs:element type="xs:string" name="comment"/>
+                    <xs:element type="xs:string" name="submit"/>
+                    <xs:element type="xs:string" name="reset"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,38 @@
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Review.xsd">>
+    <review>
+        <app>
+            <name>Shazam</name>
+            <information> Shazam identifies songs by "listening" to the music/TV being played, then matching what it hears with a vast database collection of songs and TV show information. The app can identify tracks that have no lyrics at all or tell the difference between two songs performed by different artists singing the same lyrics. </information>
+            <price> Free </price>
+            <opinion> Very good </opinion>
+            <rating>08/10</rating>
+        </app>
+    </review>
+    <review>
+        <app>
+            <name>Viber</name>
+            <information> Viber is a mobile application that allows you to make phone calls and send text messages to all other Viber users for free! Viber is available over WiFi or 3G. Sound quality is much better than a regular call. Once you and your friends install Viber, you can use it to talk and message as much as you want. </information>
+            <price> Free </price>
+            <opinion> Very good </opinion>
+            <rating> 10/10 </rating>
+        </app>
+    </review>
+    <review>
+        <app>
+            <name>Netflix</name>
+            <information> Netflix streaming software enables you to watch instantly content from Netflix through any Internet-connected device that offers a Netflix application. The software may vary by device and medium, and functionality may also differ between devices. For example, this software may be embedded in a Netflix ready device or may be offered as an application to be downloaded onto a device such as the Apple iPad. </information>
+            <price> €7.99 per month </price>
+            <opinion> Very good </opinion>
+            <rating> 10/10 </rating>
+        </app>
+    </review>
+    <review>
+        <app>
+            <name>Snapchat</name>
+            <information> Snapchat is a photo messaging application developed by Evan Spiegel, Bobby Murphy, and Reggie Brown, then Stanford University students. Using the application, users can take photos, record videos, add text and drawings, and send them to a controlled list of recipients. </information>
+            <price> Free </price>
+            <opinion> Very good </opinion>
+            <rating> 10/10 </rating>
+        </app>
+    </review>
+</root>

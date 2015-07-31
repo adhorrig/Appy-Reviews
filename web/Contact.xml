@@ -1,0 +1,35 @@
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Contact.xsd">
+    <contact> 
+        <general_info> 
+            <header> 
+                <contact> Get in touch! </contact>
+            </header>
+            <hours>
+                <monday> 09:00-17:00 </monday>
+                <tuesday> 09:00-17:00 </tuesday>
+                <wednesday> 09:00-17:00 </wednesday>
+                <thursday> 09:00-17:00 </thursday>
+                <friday> 09:00-17:00 </friday>
+                <saturday> Closed </saturday>
+                <sunday> Closed </sunday>
+            </hours>
+            <contact>
+                <phone> 085 106 4965 </phone>
+                <email> someemail@contact.com </email>
+                <address> 1st House, Town Street. </address> 
+                <fax> 84684-84684 </fax>
+            </contact>
+        </general_info>
+        
+        <form> 
+            <name> Name: </name>
+            <email> Email: </email>
+            <comment> Comment: </comment> 
+            <submit> Submit </submit>
+            <reset> Reset </reset> 
+            
+        </form>
+        
+    </contact>
+</root>
+    
