@@ -1,0 +1,1 @@
+An application which was developed in my second year of college. The purpose is to allow users to read about phone reviews and submit their own reviews. Requires GlassFish server and eXist database to run.
